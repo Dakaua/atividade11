@@ -1,0 +1,30 @@
+:root {
+    --cor_chata: #cfcc00;
+    --cor_primaria: #093869;
+    --cor_secundaria:
+  #5585af;
+    --cor_texto: #c40909;
+    --fonte_primaria:
+  'Helvetica Neue', sans-serif;
+    --padding_padrao:
+  8px;
+    --margem_padrao: 16px;      
+}
+
+header{
+    background-color: var(--cor_primaria);
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--cor_secundaria)
+}
+
+nav{
+    color: rgb(255, 0, 0);
+    background-color: var(--cor_secundaria);
+}
+
+main{
+   background-color: var(--cor_chata); 
+}
